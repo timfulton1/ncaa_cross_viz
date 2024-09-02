@@ -1,4 +1,4 @@
-# NCAA Cross County Champions
+# NCAA Cross Country Champions
 
 This repo contains the code to make this visualization:
 
