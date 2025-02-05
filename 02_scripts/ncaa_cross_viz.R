@@ -11,7 +11,7 @@ library(stringr)  # wrapping text
 library(showtext)  # fonts
 
 # Read in the data
-raw_data <- read.csv("data/team_champs.csv") %>% clean_names()
+raw_data <- read.csv("01_data/team_champs.csv") %>% clean_names()
 
 
 ## Cleaning ----
@@ -84,7 +84,7 @@ ncaa_cross_plot <- team_champs %>%
 
 # Save the plot
 ggsave(
-  "plots/ncaa_cross_plot.png",
+  "03_plots/ncaa_cross_plot.png",
   plot = ncaa_cross_plot,
   width = 13,
   height = 7,
